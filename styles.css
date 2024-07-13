@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f0f4f8; /* Light, soft blue-gray background */
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px; /* Set a maximum width for the container */
+    text-align: left; /* Left-align the content within the container */
+    margin-top: 20px; /* Add space between the title and the calendar */
+    padding-left: 5%; /* Add some left padding to the container */
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #2b2a2a;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #777; /* A slightly darker gray for the subtitle */
+}
+
+.calendar-container {
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #ffffff; /* White background for the calendar */
+    overflow: hidden;
+    
+}
+
+iframe {
+    width: calc(100% - 20px); /* Calculate the width to include the left padding */
+    height: 600px; /* Set a fixed height for the iframe */
+    border: 0;
+}
+
+
+
+
